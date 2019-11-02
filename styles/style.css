@@ -76,20 +76,21 @@ body {
 .tableHead{
     background-color: #CD853F;
     wrap:color-black;
+
 }
 .table{
     background-color: darksalmon ;
+    border-collapse: collapse;
 }
 .table1{
-    background-color: darksalmon;
+    background-color: #773333;
 }
 .tborder{
     color: orange;
     font-weight: normal;
 }
-alt1 {
-    background-color: #3333
-}
+
 .tcat {
     color: #773333;
 }
+

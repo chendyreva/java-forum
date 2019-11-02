@@ -1,6 +1,6 @@
 table {
     border-collapse: collapse;
-    width: 600px;
+
 }
 
 thead tr {
@@ -12,9 +12,10 @@ td, th, caption {
 }
 
 th, td {
-    width: 600px;
+    width: 900px;
     color: #000000;
 }
+
 
 caption {
     border-bottom: none;
