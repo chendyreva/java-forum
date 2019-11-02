@@ -1,0 +1,558 @@
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url(../fonts/Raleway-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbeef2+0,8fc9d4+100 */
+    background: rgb(219,238,242); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(219,238,242,1) 0%, rgba(143,201,212,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(219,238,242,1) 0%,rgba(143,201,212,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(219,238,242,1) 0%,rgba(143,201,212,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbeef2', endColorstr='#8fc9d4',GradientType=0 ); /* IE6-9 */
+}
+
+.header {
+    height: 700px;
+    background: url(../images/indexBack.jpg);
+    background-size: cover;
+}
+
+.headerInside {
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    width: 125px;
+    height: 111px;
+    position: absolute;
+    left: 69px;
+    top: 24px;
+    background: url(../images/surfhouseLogo.png);
+}
+
+.welcomeWrap {
+    background-color: #fff51f;
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 336px;
+    padding: 82px 25px 0 25px;
+    box-sizing: border-box;
+}
+
+.welcome {
+    font-family: "Raleway Bold", sans-serif;
+    color: #333333;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.welcomeText {
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+    margin-top: 24px;
+    color: #333;
+}
+
+.socialIconsWrap {
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    display: flex;
+    width: 145px;
+    justify-content: space-between;
+}
+
+.socialIconsWrap a {
+    text-decoration: none;
+}
+
+.socialIconsWrap i {
+    color: #fff;
+}
+
+.socialIconsWrap i:hover {
+    color: #abeafa;
+}
+
+.funrideWrap {
+    position: absolute;
+    right: 50px;
+    top: 250px;
+}
+
+.funrideHead {
+    font-family: "Raleway Extra Bold", sans-serif;
+    color: #fff51f;
+    font-size: 48px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.funrideDesc {
+    font-family: "Raleway Regular", sans-serif;
+    color: #fff51f;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.funrideBuyBtn {
+    background-color: #fff51f;
+    width: 124px;
+    height: 49px;
+    display: block;
+    line-height: 49px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Raleway Black", sans-serif;
+    text-transform: uppercase;
+    color: #FFA07A;
+    margin-top: 62px;
+}
+
+.funrideBuyBtn:hover {
+    color: #fff51f;
+    background-color: #FFA07A;
+}
+
+.content {
+    margin-top: -20px;
+}
+
+.content:after,
+.contentInside:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.contentInside {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.contentLeft {
+    width: 270px;
+    float: left;
+}
+
+.contentRight {
+    width: 870px;
+    float: right;
+}
+
+.mainMenu {
+    background-color: #7FFF00;
+}
+
+.mainMenu a {
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    color: #FFFF00;
+    text-decoration: none;
+    padding: 0 40px;
+}
+
+.mainMenu a:first-child {
+    height: 66px;
+    background: #333;
+    color: #DC143C;
+    line-height: 66px;
+}
+
+.mainMenu a:hover {
+    background-color: #333;
+    color: #DC143C;
+}
+
+.nowIsOpen {
+    margin-top: 30px;
+    height: 300px;
+    border: 10px solid pink;
+    box-sizing: border-box;
+}
+
+.nowIsOpenInside {
+    width: 100%;
+    height: 100%;
+    background: url(../images/store.jpg) no-repeat;
+}
+
+.nowIsOpen span {
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    top: 129px;
+    left: 142px;
+    color: rgb(173, 255, 47);
+}
+
+.contentHeader {
+    height: 78px;
+    line-height: 78px;
+    padding: 0 25px;
+    background: #f8f8f8;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #F5DEB3;
+    margin-bottom: 30px;
+}
+
+.productsWrap {
+    margin-bottom: 30px;
+}
+
+.saleProducts {
+    margin-bottom: 0;
+}
+
+.productsWrap:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.productUnit {
+    background-color: #ffffff;
+    width: 270px;
+    height: 320px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.productUnit:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.productUnit:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.productUnitNew:before,
+.productUnitHot:before {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    padding: 9px 0 0 22px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.productUnitNew:before {
+    content: "NEW";
+    background: url(../images/new-corner.png) no-repeat;
+}
+
+.productUnitHot:before {
+    content: "HOT";
+    background: url(../images/hot-corner.png) no-repeat;
+}
+
+.productImg {
+    width: 100%;
+    height: 235px;
+    margin-bottom: 19px;
+}
+
+.productName {
+    width: 155px;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 14px;
+    color: #333;
+    float: left;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.productPriceWrap {
+    float: right;
+    font-family: "Roboto Black Italic", sans-serif;
+    color: #333;
+    text-align: right;
+}
+
+.actualPrice {
+    font-size: 18px;
+}
+
+.oldPrice {
+    color: #e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.brands {
+    position: relative;
+    top: 30px;
+    clear: both;
+    height: 160px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.istagramFeedWrap {
+    height: 350px;
+    background-color: #eaeaea;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.instaFeedHead {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto Black Italic", sans-serif;
+}
+
+.instaFeedHead i {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+.instaFeedHead span {
+    font-size: 22px;
+}
+
+.instaFeedImages {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instaFeedImages img {
+    border: 8px solid #fff;
+    box-sizing: border-box;
+}
+
+.socialButtonsWrap {
+    height: 150px;
+    display: flex;
+}
+
+.socialButtonsWrap a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.socialButtonsWrap a:nth-child(1) {
+    background-color: #3b5997;
+}
+
+.socialButtonsWrap a:nth-child(2) {
+    background-color: #3fccfd;
+}
+
+.socialButtonsWrap a:nth-child(3) {
+    background-color: #cb2027;
+}
+
+.footer {
+    background-color: #373737;
+    color: #fff;
+}
+
+.footerInside {
+    width: 1170px;
+    margin: 0 auto;
+    min-height: 343px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+
+.columnHead {
+    font-family: "Raleway Extra Bold", sans-serif;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.columnLinks a {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.newsLetter {
+    width: 270px;
+}
+
+.columnNewsLetter {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+}
+
+.newsLetterText {
+    margin-bottom: 31px;
+}
+
+.columnNewsLetter input {
+    background-color: #fff51f;
+    width: 180px;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.columnNewsLetter button {
+    width: 71px;
+    height: 30px;
+    background: #CD853F;
+    color: #fff;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+}
+
+.columnNewsLetter button:hover {
+    background: #fff;
+    color: #CD853F;
+    cursor: pointer;
+}
+
+.cardsWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.about {
+    width: 232px;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.aboutText {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.aboutPhone {
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.aboutPhone span,
+.aboutEmail span {
+    margin-right: 10px;
+}
+
+.aboutEmail {
+    margin-top: 14px;
+    color: #faef03;
+    font-size: 14px;
+}
+
+.footerCopyrights {
+    height: 47px;
+    background: #333;
+    line-height: 47px;
+}
+
+.copyrightsInside {
+    width: 1170px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.footerCopySign {
+    float: left;
+    font-size: 12px;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.footerSocials {
+    height: inherit;
+    float:right;
+    width: 178px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,752 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru">
+<head>
+    <base href="http://www.cyberforum.ru/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+
+    <meta name="keywords" content="форум программистов, компьютерный форум, киберфорум, сайберфорум, компьютеры, программирование, софт, электроника" />
+    <meta name="description" content="КиберФорум - форум программистов, системных администраторов, администраторов баз данных, компьютерный форум, форум по электронике и бытовой технике, обсуждение софта. Бесплатная помощь в решении задач по программированию и наукам, решение проблем с компьютером, операционными системам" />
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="noyaca" />
+    <meta name="robots" content="noodp" />
+
+    <link rel="stylesheet" type="text/css" href="//cyberstatic.net/clientscript/vbulletin_css/cyberforum.css" />
+    <link rel="stylesheet" type="text/css" href="//cyberstatic.net/clientscript/vbulletin_important.css?v=389" />
+
+
+
+    <script type="text/javascript">
+        <!--
+        var SESSIONURL = "";
+        var SECURITYTOKEN = "guest";
+        var IMGDIR_MISC = "//cyberstatic.net/images/misc";
+        var vb_disable_ajax = parseInt("0", 10);
+        // -->
+    </script>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/yui/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js?v=389"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/yui/2.9.0/build/connection/connection-min.js?v=389"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="//cyberstatic.net/clientscript/custom/jquery.browser.min.js"></script>
+    <script type="text/javascript" src="//cyberstatic.net/clientscript/vbulletin_global.js?v=389"></script>
+    <script type="text/javascript" src="//cyberstatic.net/clientscript/vbulletin_menu.js?v=389"></script>
+    <script type="text/javascript" src="//cyberstatic.net/clientscript/vbulletin_vbpost.js"></script>
+
+
+    <script type="text/javascript" src="//cyberstatic.net/clientscript/vbulletin_md5.js?v=389"></script>
+
+
+
+    <link rel="alternate" type="application/rss+xml" title="Форум программистов и сисадминов Киберфорум RSS Feed" href="external.php?type=RSS2" />
+
+
+    <link type="application/opensearchdescription+xml" rel="search" href="http://www.cyberforum.ru/opensearch.xml" title="CyberForum.ru" />
+    <link rel="stylesheet" href="//cyberstatic.net/clientscript/vbulletin_css/geshi.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="//cyberstatic.net/clientscript/vbulletin_css/spoiler.css" />
+    <style type="text/css">
+        span.sortarrow {position:absolute;}
+        span.sortarrow img {border:0;}
+        a.sortheader {text-decoration:none; display:block; width:100%;}
+    </style>
+    <script type="text/javascript">
+        var IMGDIR_BUTTON = "//cyberstatic.net/images/buttons";
+    </script>
+    <script type="text/javascript" src="//cyberstatic.net/clientscript/sorttable.js"></script>
+
+
+    <script type="text/javascript" src="http://www.cyberforum.ru/krscripts/passvfy/js/kr_passvfy.js"></script>
+    <script type="text/javascript">
+        var krpassvfyPhrase = {
+                'kr_passvfy_use_this_password' : 'Использовать пароль'
+            },
+            passChrLength = 6,
+            passChrUpper = 0,
+            passChrLower = 0,
+            passChrNumber = 0;
+    </script>
+    <style type="text/css">
+        /* ***** red and green boxes for username verification used during registration ***** */
+        .greenbox { border: 1px solid #337733; background: #bbffbb; color: #337733; padding: 3px; }
+        .redbox { border:1px solid #773333; background: #ffbbbb; color: #773333; padding: 3px; }
+    </style>
+    <title>Регистрация - Форум программистов и сисадминов Киберфорум</title>
+</head>
+<body>
+
+
+
+<div style="min-width: 1000px;  margin: 7px 20px 7px 20px;">
+
+
+    <div>
+        <div class="page" style="text-align: left;">
+            <div style="margin: 0px 3px 0px 3px" align="left">
+
+                <div class="vbmenu_popup" id="vbbloglinks_menu" style="display:none;margin-top:3px" align="left">
+                    <table cellpadding="4" cellspacing="1" border="0">
+
+                        <tr>
+                            <td class="vbmenu_option"><a href="http://www.cyberforum.ru/blogs/recent-entries/">Блоги программистов и сисадминов</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center">
+                    <tr>
+
+                        <td class="alt1" width="100%" style="padding-left: 10px">
+                            <a href="http://www.cyberforum.ru/"  style="display: block; float: left; margin: 5px 25px 10px 0px"><img border="0" src="//cyberstatic.net/images/cyberforum_logo.png" height="50px" alt="Форум программистов, компьютерный форум, киберфорум" title="Форум программистов, компьютерный форум, киберфорум" /></a>
+                            <div class="smallfont" style="float: right; margin: 0px 0px 0px 20px;">
+                                <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter" data-image="http://cyberstatic.net/images/cyberforum_logo.png"></div>
+                                <div style="margin: 5px 0px 0px 0px">Наши страницы</div>
+                                <div><b><a href="http://www.cyberforum.ru/go.php?url=1" target="_blank" rel="nofollow noopener noreferrer">Vkontakte</a>, </b></div>
+                                <div><b><a href="http://www.cyberforum.ru/go.php?url=2" target="_blank" rel="nofollow noopener noreferrer">Facebook</a>, <a href="http://www.cyberforum.ru/go.php?url=3" target="_blank" rel="nofollow noopener noreferrer">Twitter</a></b></div>
+                            </div>
+
+                            <div><h1>Форум программистов и сисадминов Киберфорум</h1><br /><span class="smallfont">КиберФорум - форум программистов, системных администраторов, администраторов баз данных, компьютерный форум, форум по электронике и бытовой технике, обсуждение софта. Бесплатная помощь в решении задач по программированию, математике, физике и другим наукам, решение проблем с компьютером, операционными системами.</span></div>
+
+                        </td>
+
+                        <td class="alt2" style="padding: 0px">
+                            <table cellpadding="5" cellspacing="3" border="0" width="230px">
+                                <tr>
+                                    <td class="smallfont" style="white-space: nowrap"><b><a href="log-in.php" style="font-size: 19px;">Войти</a></b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b><a href="register.php">Регистрация</a></b><br/>
+                                        <a href="login.php?do=lostpw">Восстановить пароль</a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+
+                    </tr>
+                </table>
+                <div class="tborder" style="padding:1px; border-top-width:0px; margin-bottom: 3px;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+                        <tr align="center">
+
+
+                            <td id="krtests" class="vbmenu_control"><a href="krtests.php?do=testslist">Тесты</a></td>
+                            <td class="vbmenu_control"><a id="vbbloglinks" href="blogs/">Блоги</a><script type="text/javascript">vbmenu_register("vbbloglinks");</script></td>
+
+
+                            <td class="vbmenu_control"><a id="community" href="/register.php?do=register&amp;nojs=1#community" accesskey="6">Сообщество</a> <script type="text/javascript"> vbmenu_register("community"); </script></td>
+
+
+
+
+                            <td class="vbmenu_control"><a id="navbar_search" href="search.php" accesskey="4">Поиск</a> <script type="text/javascript"> vbmenu_register("navbar_search"); </script></td>
+
+
+
+
+                            <td class="vbmenu_control" width="100%">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="vbmenu_popup" id="community_menu" style="display:none;margin-top:3px" align="left">
+                    <table cellpadding="4" cellspacing="1" border="0">
+                        <tr><td class="thead">Ссылки сообщества</td></tr>
+
+
+
+                        <tr><td class="vbmenu_option"><a href="http://www.cyberforum.ru/groups/">Социальные группы</a></td></tr>
+
+
+
+
+
+
+
+
+                    </table>
+                </div>
+
+
+
+                <div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="left">
+                    <table cellpadding="4" cellspacing="1" border="0" width="320px">
+
+                        <tr>
+                            <td class="thead">Самые популярные темы</td>
+                        </tr>
+                        <tr><td style="background: #BBC7CE; padding: 0px">
+                            <table cellpadding="4" cellspacing="1" border="0"><tr>
+                                <td class="vbmenu_option" style="padding: 4px 27px; border-right: 1px solid #FFFFFF"><a href="search.php?do=getpopular1">За сутки</a></td>
+                                <td class="vbmenu_option" style="padding: 4px 27px; border-right: 1px solid #FFFFFF""><a href="search.php?do=getpopular3">За 3 дня</a></td>
+                                <td class="vbmenu_option" style="padding: 4px 20px"><a href="search.php?do=getpopular7">За неделю</a></td>
+                            </tr></table>
+                        </td></tr>
+                        <tr>
+                            <td class="thead">Поиск Google по форуму</td>
+                        </tr>
+                        <tr>
+                            <td class="vbmenu_option" title="nohilite" width="300px">
+
+                                <script>
+                                    (function() {
+                                        var cx = 'partner-pub-6796001588681838:1260530199';
+                                        var gcse = document.createElement('script');
+                                        gcse.type = 'text/javascript';
+                                        gcse.async = true;
+                                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                        var s = document.getElementsByTagName('script')[0];
+                                        s.parentNode.insertBefore(gcse, s);
+                                    })();
+                                </script>
+                                <gcse:searchbox-only resultsUrl="http://www.cyberforum.ru/google.php" newWindow="true"></gcse:searchbox-only>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="thead">Поиск Yandex по форуму</td>
+                        </tr>
+                        <tr>
+                            <td class="vbmenu_option" title="nohilite">
+
+                                <div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://www.cyberforum.ru/yandex.php','arrow':false,'bg':'transparent','fontsize':13,'fg':'#000000','language':'ru','logo':'rb','publicname':'Yandex Site Search #364949','suggest':true,'target':'_blank','tld':'ru','type':2,'usebigdictionary':true,'searchid':364949,'webopt':false,'websearch':false,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':null,'input_placeholderColor':'#000000','input_borderColor':'#7f9db9'}"><form action="http://yandex.ru/sitesearch" method="get" target="_blank"><input type="hidden" name="searchid" value="364949"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Найти"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="thead">Поиск по форуму</td>
+                        </tr>
+
+                        <tr>
+                            <td class="vbmenu_option"><a href="search.php" accesskey="4">Расширенный поиск</a></td>
+                        </tr>
+
+
+                    </table>
+                </div>
+
+
+
+                <!-- Custom Menus -->
+                <div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+                    <table cellpadding="4" cellspacing="1" border="0">
+                        <tr>
+                            <td class="thead" nowrap="nowrap">К странице...</td>
+                        </tr>
+                        <tr>
+                            <td class="vbmenu_option" title="nohilite">
+                                <form action="index.php" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+                                    <input type="text" class="bginput smallfont" id="pagenav_itxt" size="4" />
+                                    <input type="button" class="button" id="pagenav_ibtn" value="Вперёд" />
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+
+
+                <br />
+
+
+
+
+
+                <script type="text/javascript" src="//cyberstatic.net/clientscript/vbulletin_md5.js?v=389"></script>
+                <script type="text/javascript">
+                    function verify_passwords(password1, password2)
+                    {
+                        // do various checks, this will save people noticing mistakes on next page
+                        if (password1.value == '' || password2.value == '')
+                        {
+                            alert('Пожалуйста, заполните оба поля для пароля.');
+                            return false;
+                        }
+                        else if (password1.value != password2.value)
+                        {
+                            alert('Введённые пароли не совпадают.');
+                            return false;
+                        }
+                        else
+                        {
+
+
+
+                            kr_pass_verify = password1.value;
+                            kr_passconfirm_verify = password2.value;
+
+
+                            var junk_output;
+
+                            md5hash(password1, document.forms.register.password_md5, junk_output, 1);
+                            md5hash(password2, document.forms.register.passwordconfirm_md5, junk_output, 1);
+
+
+
+
+                            document.forms.register.password.value = kr_pass_verify;
+                            document.forms.register.passwordconfirm.value = kr_passconfirm_verify;
+
+
+                            return true;
+                        }
+                        return false;
+                    }
+                </script>
+
+                <form action="register.php?do=addmember" name="register" method="post" onsubmit="return verify_passwords(password, passwordconfirm);">
+                    <input type="hidden" name="s" value="" />
+                    <input type="hidden" name="securitytoken" value="guest" />
+                    <input type="hidden" name="do" value="addmember" />
+                    <input type="hidden" name="url" value="http://www.cyberforum.ru/newthread.php?do=newthread&amp;f=385" />
+                    <input type="hidden" name="agree" value="1" />
+                    <input type="hidden" name="password_md5" />
+                    <input type="hidden" name="passwordconfirm_md5" />
+
+
+
+                    <table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center">
+                        <tr>
+                            <td class="tcat">Регистрация</td>
+                        </tr>
+                        <tr>
+                            <td class="panelsurround" align="center">
+                                <div class="panel">
+                                    <div style="width:900px" align="left">
+
+                                        <div class="smallfont" style="margin-bottom:3px">
+                                            Чтобы оставлять на форуме Форум программистов и сисадминов Киберфорум сообщения, необходимо сначала зарегистрироваться.<br />
+                                            Пожалуйста, укажите ваше имя пользователя, адрес электронной почты и прочую обязательную информацию о себе в форме ниже.<br /><br />
+                                            <b>Регистрация ников, содержащих в себе символы из разных раскладок клавиатуры, например русской и английской, запрещена.</b><br />
+                                        </div>
+
+                                        <div class="smallfont" style="margin-bottom:3px">
+                                            <strong>Имя</strong>:<br />
+                                            <input class="bginput" id="regusername" type="text" name="username" size="50" maxlength="15" value="" /><img src="clear.gif" id="reg_verif_image" onclick="return toggle_collapse('dialog_box')" style="display:none;" alt="" />
+                                            <div id="collapseobj_dialog_box"><div id="reg_verif_div" style="display:none;"></div></div>
+                                            <script type="text/javascript" src="//cyberstatic.net/clientscript/vbulletin_ajax_nameverif.js?v=389"></script>
+                                            <script type="text/javascript">
+                                                <!--
+                                                regname_verif = new vB_AJAX_NameVerify('regname_verif', 'regusername');
+                                                //-->
+                                            </script>
+                                        </div>
+
+                                        <fieldset class="fieldset">
+                                            <legend>Пароль</legend>
+                                            <table cellpadding="0" cellspacing="3" border="0" width="400">
+                                                <tr>
+                                                    <td colspan="2">Введите свой пароль. Пароль чувствителен к регистру букв.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Пароль:<br />
+                                                        <input type="password" class="bginput" name="password" size="25" maxlength="50" value="" />
+                                                    </td>
+                                                    <td>
+                                                        Подтвердите пароль:<br />
+                                                        <input type="password" class="bginput" name="passwordconfirm" size="25" maxlength="50" value="" />
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <div id="krpassvfy" style="height: 5px; margin: 2px 0 2px 0;"></div>
+                                                        <div>Требования к паролю:</div>
+                                                        <div id="passwdMinLen" style="margin: 1px;">Длина пароля не менее 6 символов</div>
+
+
+
+                                                        <fieldset class="fieldset"><legend><input type="button" class="button smallfont" id="krpassvfy_genpassbutton" value="Сгенерировать пароль" /></legend>
+                                                            <input type="text" class="bginput" id="randPasswContainer" size="25" maxlength="50" value="" autocomplete="off" />
+                                                            <div id="krpassvfy_buttoncontainer"></div>
+                                                        </fieldset>
+                                                    </td>
+                                                </tr>
+
+
+                                            </table>
+                                        </fieldset>
+
+                                        <fieldset class="fieldset">
+                                            <legend>Адрес электронной почты</legend>
+                                            <table cellpadding="0" cellspacing="3" border="0" width="400">
+                                                <tr>
+                                                    <td colspan="2">Введите правильный адрес электронной почты.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Адрес электронной почты:<br />
+                                                        <input type="text" class="bginput" name="email" size="25" maxlength="50" value="" dir="ltr" />
+                                                    </td>
+                                                    <td>
+                                                        Подтвердите адрес:<br />
+                                                        <input type="text" class="bginput" name="emailconfirm" size="25" maxlength="50" value="" dir="ltr" />
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </fieldset>
+
+                                        <fieldset class="fieldset">
+                                            <legend>Проверка</legend>
+                                            <input id="hash" type="hidden" name="humanverify[hash]" value="ddf76601a1ba9e02027a045db0eb581c" />
+                                            <div class="g-recaptcha" data-sitekey="6Lep3zoUAAAAADlmf9SWa7GzNezSYjLOJY7ekF6F" data-theme="light" data-type="image"></div>
+                                            <noscript>
+                                                <div style="width: 302px; height: 352px;">
+                                                    <div style="width: 302px; height: 352px; position: relative;">
+                                                        <div style="width: 302px; height: 352px; position: absolute;">
+                                                            <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Lep3zoUAAAAADlmf9SWa7GzNezSYjLOJY7ekF6F"
+                                                                    frameborder="0" scrolling="no"
+                                                                    style="width: 302px; height:352px; border-style: none;">
+                                                            </iframe>
+                                                        </div>
+                                                        <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0px; padding: 0px; resize: none;" value="">
+        </textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </noscript>
+                                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                        </fieldset>
+
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+
+
+                    <table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center">
+                        <tr>
+                            <td class="thead">Требуется дополнительная информация (профиль)</td>
+                        </tr>
+                        <tr>
+                            <td class="panelsurround" align="center">
+                                <div class="panel">
+                                    <div style="width:900px" align="left">
+
+
+
+
+                                        <script type="text/javascript">
+                                            <!--
+                                            function clear_birthday()
+                                            {
+                                                fetch_object('bd_month').selectedIndex = 0;
+                                                fetch_object('bd_day').selectedIndex = 0;
+                                                fetch_object('bd_year').value = '';
+                                            }
+                                            //-->
+                                        </script>
+                                        <fieldset class="fieldset">
+                                            <legend>Дата рождения</legend>
+                                            <table cellpadding="0" cellspacing="3" border="0" width="100%">
+                                                <tr>
+                                                    <td colspan="3">
+                                                        Ваша дата рождения и возраст отображаются в различных местах форума. Если вы выберете "Скрывать возраст и дату рождения" в опции ниже, то только администраторы смогут их увидеть.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table cellpadding="0" cellspacing="0" border="0">
+                                                            <tr>
+                                                                <td>Месяц</td>
+                                                                <td>День</td>
+                                                                <td>Год</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><select name="month" id="bd_month">
+                                                                    <option value="-1" ></option>
+                                                                    <option value="01" >Январь</option>
+                                                                    <option value="02" >Февраль</option>
+                                                                    <option value="03" >Март</option>
+                                                                    <option value="04" >Апрель</option>
+                                                                    <option value="05" >Май</option>
+                                                                    <option value="06" >Июнь</option>
+                                                                    <option value="07" >Июль</option>
+                                                                    <option value="08" >Август</option>
+                                                                    <option value="09" >Сентябрь</option>
+                                                                    <option value="10" >Октябрь</option>
+                                                                    <option value="11" >Ноябрь</option>
+                                                                    <option value="12" >Декабрь</option>
+                                                                </select> &nbsp;</td>
+                                                                <td><select name="day" id="bd_day">
+                                                                    <option value="-1" ></option>
+                                                                    <option value="01" >1</option>
+                                                                    <option value="02" >2</option>
+                                                                    <option value="03" >3</option>
+                                                                    <option value="04" >4</option>
+                                                                    <option value="05" >5</option>
+                                                                    <option value="06" >6</option>
+                                                                    <option value="07" >7</option>
+                                                                    <option value="08" >8</option>
+                                                                    <option value="09" >9</option>
+                                                                    <option value="10" >10</option>
+                                                                    <option value="11" >11</option>
+                                                                    <option value="12" >12</option>
+                                                                    <option value="13" >13</option>
+                                                                    <option value="14" >14</option>
+                                                                    <option value="15" >15</option>
+                                                                    <option value="16" >16</option>
+                                                                    <option value="17" >17</option>
+                                                                    <option value="18" >18</option>
+                                                                    <option value="19" >19</option>
+                                                                    <option value="20" >20</option>
+                                                                    <option value="21" >21</option>
+                                                                    <option value="22" >22</option>
+                                                                    <option value="23" >23</option>
+                                                                    <option value="24" >24</option>
+                                                                    <option value="25" >25</option>
+                                                                    <option value="26" >26</option>
+                                                                    <option value="27" >27</option>
+                                                                    <option value="28" >28</option>
+                                                                    <option value="29" >29</option>
+                                                                    <option value="30" >30</option>
+                                                                    <option value="31" >31</option>
+                                                                </select> &nbsp;</td>
+                                                                <td><input type="text" class="bginput" name="year" value="" size="4" maxlength="4" id="bd_year" /></td>
+                                                                <td rowspan="2">&nbsp; <input type="button" class="button" value="Очистить" onclick="clear_birthday()" /></td>
+                                                            </tr>
+                                                        </table>
+                                                        <input type="hidden" name="oldbirthday" value="" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Секретность<br />
+                                                        <select name="showbirthday">
+                                                            <option value="0" >Скрывать возраст и дату рождения</option>
+                                                            <option value="1" >Отображать только возраст</option>
+                                                            <option value="3" >Отображать только день и месяц рождения</option>
+                                                            <option value="2" selected="selected">Отображать возраст и полную дату рождения</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </fieldset>
+
+
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+
+
+
+
+                    <div style="display: none">
+                        <table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center">
+                            <tr>
+                                <td class="thead">Дополнительная информация</td>
+                            </tr>
+                            <tr>
+                                <td class="panelsurround" align="center">
+                                    <div class="panel">
+                                        <div style="width:900px" align="left">
+
+
+                                            <fieldset class="fieldset">
+                                                <legend>Реферер</legend>
+                                                <table cellpadding="0" cellspacing="3" border="0" width="100%">
+                                                    <tr>
+                                                        <td>Если вы пришли на этот форум по совету одного из участников, то, пожалуйста, введите его имя пользователя.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Реферер:<br />
+                                                            <div id="referrerfield"><input id="referrerfield_txt" type="text" class="bginput" name="referrername" value="" size="50" maxlength="15" /></div>
+
+                                                            <div id="referrerfield_menu" class="vbmenu_popup" style="display:none; z-index:50"></div>
+                                                            <script type="text/javascript" src="//cyberstatic.net/clientscript/vbulletin_ajax_namesugg.js?v=389"></script>
+                                                            <script type="text/javascript">
+                                                                <!--
+                                                                vbmenu_register('referrerfield', true);
+                                                                rnc = new vB_AJAX_NameSuggest('rnc', 'referrerfield_txt', 'referrerfield');
+                                                                rnc.allow_multiple = false;
+                                                                //-->
+                                                            </script>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </fieldset>
+
+
+                                            <fieldset class="fieldset">
+                                                <legend><label for="sel_timezoneoffset">Часовой пояс</label></legend>
+                                                <table cellpadding="0" cellspacing="3" border="0" width="100%">
+                                                    <tr>
+                                                        <td>Время на форуме может быть выставлено в соответствии с тем, где вы находитесь. Выберите свой часовой пояс из списка ниже.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+			<span style="float:right">
+			<select name="timezoneoffset" id="sel_timezoneoffset">
+				<option value="-12" class="" >(GMT -12:00) Эневеток, Кваджалейн</option>
+<option value="-11" class="" >(GMT -11:00) Остров Мидуэй, Самоа</option>
+<option value="-10" class="" >(GMT -10:00) Гавайи</option>
+<option value="-9" class="" >(GMT -9:00) Аляска</option>
+<option value="-8" class="" >(GMT -8:00) Тихоокеанское время (США и Канада), Тихуана</option>
+<option value="-7" class="" >(GMT -7:00) Горное время (США и Канада), Аризона</option>
+<option value="-6" class="" >(GMT -6:00) Центральное время (США и Канада), Мехико</option>
+<option value="-5" class="" >(GMT -5:00) Восточное время (США и Канада), Богота, Лима</option>
+<option value="-4.5" class="" >(GMT -4:30) Каракас</option>
+<option value="-4" class="" >(GMT -4:00) Атлантическое время (Канада), Ла Пас</option>
+<option value="-3.5" class="" >(GMT -3:30) Ньюфаундленд</option>
+<option value="-3" class="" >(GMT -3:00) Бразилия, Буэнос-Айрес, Джорджтаун</option>
+<option value="-2" class="" >(GMT -2:00) Среднеатлантическое время</option>
+<option value="-1" class="" >(GMT -1:00) Азорские острова, острова Зелёного Мыса</option>
+<option value="0" class="" >(GMT) Дублин, Лондон, Лиссабон, Касабланка, Эдинбург</option>
+<option value="1" class="" >(GMT +1:00) Брюссель, Копенгаген, Мадрид, Париж, Берлин</option>
+<option value="2" class="" >(GMT +2:00) Калининград, Киев, Минск, Афины, Южная Африка, Каир</option>
+<option value="3" class="" selected="selected">(GMT +3:00) Москва, Санкт-Петербург, Волгоград</option>
+<option value="3.5" class="" >(GMT +3:30) Тегеран</option>
+<option value="4" class="" >(GMT +4:00) Абу-Даби, Баку, Тбилиси, Ереван</option>
+<option value="4.5" class="" >(GMT +4:30) Кабул</option>
+<option value="5" class="" >(GMT +5:00) Екатеринбург, Исламабад, Карачи, Ташкент</option>
+<option value="5.5" class="" >(GMT +5:30) Мумбай, Колката, Ченнаи, Нью-Дели</option>
+<option value="5.75" class="" >(GMT +5:45) Катманду</option>
+<option value="6" class="" >(GMT +6:00) Омск, Новосибирск, Кемерово, Астана, Бишкек</option>
+<option value="6.5" class="" >(GMT +6:30) Янгон, Кокосовые острова</option>
+<option value="7" class="" >(GMT +7:00) Красноярск, Абакан, Бангкок, Ханой, Джакарта</option>
+<option value="8" class="" >(GMT +8:00) Иркутск, Улан-Удэ, Пекин, Сингапур, Гонконг</option>
+<option value="9" class="" >(GMT +9:00) Якутск, Благовещенск, Токио, Пхеньян, Сеул</option>
+<option value="9.5" class="" >(GMT +9:30) Аделаида, Дарвин</option>
+<option value="10" class="" >(GMT +10:00) Владивосток, Сахалин, Восточная Австралия, Гуам</option>
+<option value="11" class="" >(GMT +11:00) Магадан, Камчатка, Соломоновы Острова</option>
+<option value="12" class="" >(GMT +12:00) Веллингтон, Окленд, Фиджи</option>
+
+			</select>
+			</span>
+                                                            <label for="sel_timezoneoffset">Часовой пояс:</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Учитывать переход на летнее или зимнее время (DST).</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+			<span style="float:right">
+			<select name="dst" id="sel_dst">
+				<option value="2" >Определять летнее/зимнее время автоматически</option>
+				<option value="1" >Коррекция DST всегда включена</option>
+				<option value="0" >Коррекция DST всегда отключена</option>
+			</select>
+			</span>
+                                                            <label for="sel_dst">Опции перехода на летнее/зимнее время (DST):</label>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </fieldset>
+
+                                            <fieldset class="fieldset">
+                                                <legend>Получать электронные письма</legend>
+                                                <table cellpadding="0" cellspacing="3" border="0" width="100%">
+                                                    <tr>
+                                                        <td>
+                                                            Время от времени администрация может посылать вам сообщения по электронной почте.<br />
+                                                            <br />Если вы не хотите получать эти сообщения, отключите эту опцию.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><label for="cb_adminemail"><input type="checkbox" name="options[adminemail]" value="1" id="cb_adminemail" checked="checked" />Получать электронные письма от администрации</label></td>
+                                                    </tr>
+
+                                                </table>
+                                            </fieldset>
+                                            <fieldset class="fieldset"><legend>Главная страница в две колонки</legend>
+                                                <div>
+                                                    <select name="newforumhome" class="bginput">
+                                                        <option value="1" >Вкл.</option>
+                                                        <option value="0" >Выкл.</option>
+                                                    </select>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div align="center" style="margin-bottom: 15px">
+                        <input type="submit" class="button" value="Регистрация завершена" accesskey="s" />
+                        <input type="reset" class="button" name="Reset" value="Сброс" />
+                    </div>
+
+                </form>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <form action="index.php" method="get" style="clear:left">
+        <table cellpadding="5" cellspacing="0" border="0" class="tborder" align="center" style="margin-top: 3px; width: 100%;">
+            <tr>
+
+                <td class="tfoot" width="50%">
+                    <table cellpadding="5" cellspacing="0" border="0" class="table" align="center" style="width: 100% "
+                           style="background-color: #FF00FF">
+                        <span class="smallfont" >JavaForum - форум программистов, компьютерный форум, программирование.</span>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+        <table cellpadding="5" cellspacing="0" border="0" class="tborder" align="center" style="width: 100%;">
+            <tr class="alt1" align="right">
+                <td align="left" class="smallfont" width="500px">
+                    &copy; summer, 2019.
+                </td>
+                <td align="right" width="300px">
+                    <script type="text/javascript"><!--
+                    document.write("<a href='http://www.liveinternet.ru/click' "+
+                        "target=_blank><img src='//counter.yadro.ru/hit?t12.2;r"+
+                        escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                            ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                            screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                        ";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+                        "' alt='' title='LiveInternet: показано число просмотров за 24"+
+                        " часа, посетителей за 24 часа и за сегодня' "+
+                        "border='0' width='88' height='31'><\/a>")
+                    //--></script>
+
+
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+</body>
+</html>
