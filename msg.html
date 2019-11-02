@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Java Forum</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <div class="socialIconsWrap" style="float: right">
         <a href="#">
@@ -274,9 +273,7 @@
 
 
                 <table class="tborder" cellpadding="5" cellspacing="1" border="0" width="800px" align="center">
-                    <tr>
-                        <td class="tcat">Сообщение форума</td>
-                    </tr>
+
                     <tr>
                         <td class="panelsurround">
                             <div class="panel">
@@ -406,51 +403,11 @@
     //-->
 </script>
 
-<div class="vbmenu_popup" id="forumsearch_menu" style="display:none">
-    <form action="http://www.cyberforum.ru/search.php?do=process" method="post">
-        <table cellpadding="4" cellspacing="1" border="0">
-            <tr>
-                <td class="tableHead">Искать в этом разделе<a name="goto_forumsearch"></a></td>
-            </tr>
-            <tr>
-                <td class="vbmenu_option" title="nohilite">
-                    <input type="hidden" name="s" value="" />
-                    <input type="hidden" name="securitytoken" value="guest" />
-                    <input type="hidden" name="do" value="process" />
-                    <input type="hidden" name="forumchoice[]" value="385" />
-                    <input type="hidden" name="childforums" value="1" />
-                    <input type="hidden" name="exactname" value="1" />
-                    <div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="Вперёд" accesskey="s" tabindex="1004" /></div>
-                </td>
 
-            </tr>
-            <tr>
-                <td class="vbmenu_option" title="nohilite">
-                    <label for="rb_fd_sp0"><input type="radio" name="showposts" value="0" id="rb_fd_sp0" tabindex="1002" checked="checked" />Отобразить темы</label>
-                    &nbsp;
-                    <label for="rb_fd_sp1"><input type="radio" name="showposts" value="1" id="rb_fd_sp1" tabindex="1003" />Отображать сообщения</label>
-                </td>
-            </tr>
-            <tr>
-                <td class="vbmenu_option"><a href="http://www.cyberforum.ru/search.php?f=385">Расширенный поиск</a></td>
-            </tr>
-            <tr>
-                <td class="vbmenu_option"><a href="http://www.cyberforum.ru/search.php?do=process&amp;forumchoice[]=385&amp;childforums=1&amp;replyless=1&amp;replylimit=0&amp;nocache=0">Темы без ответов</a></td>
-            </tr>
-            <tr>
-                <td class="vbmenu_option"><a href="http://www.cyberforum.ru/search.php?do=process&amp;forumchoice[]=385&amp;showposts=0&amp;starteronly=1&amp;exactname=1&amp;searchuser=Гость">Мои темы</a></td>
-            </tr>
-            <tr>
-                <td class="vbmenu_option"><a href="http://www.cyberforum.ru/search.php?do=process&amp;forumchoice[]=385&amp;showposts=0&amp;starteronly=0&amp;exactname=1&amp;searchuser=Гость">Темы с моими сообщениями</a></td>
-
-            </tr>
-        </table>
-    </form>
-</div>
 <td class="tfoot" width="50%">
     <table cellpadding="5" cellspacing="0" border="0" class="table" align="center" style="width: 100% "
            style="background-color: #FF00FF">
-        <span class="smallfont" >JavaForum - форум программистов, компьютерный форум, программирование.</span>
+        <span class="smallfont" style="color: darkorange" >JavaForum - форум программистов, компьютерный форум, программирование.</span>
     </table>
 </td>
 </td>
@@ -458,7 +415,7 @@
 </table>
 <table cellpadding="5" cellspacing="0" border="0" class="tborder" align="center" style="width: 100%;">
     <tr class="alt1" align="right">
-        <td align="left" class="smallfont" width="500px">
+        <td align="left" class="smallfont" width="500px" style="color: darkorange">
             &copy; summer, 2019.
         </td>
         <td align="right" width="300px">
